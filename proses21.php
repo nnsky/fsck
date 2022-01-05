@@ -1,0 +1,1 @@
+<script>setTimeout(function(){location.href='http://10.100.100.206/'} , 1); </script>

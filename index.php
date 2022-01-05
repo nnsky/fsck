@@ -142,55 +142,51 @@
 </div>
     <p class='berlakuklik'> KUPON YANG AKAN DATANG</p>
     <!-- <div class="col-sm-12" id="menu"> -->
+     <!-- REVISI!! Img Button di Rapikan -->
     <div class="col-sm-12">
       <center>
       <div class="row">
         <?php
-        if ($hari <= 220108) {
+            // button sesi 01
+        if ($hari <= 220110) {
             echo '       
-      <div class="col-lg">
-	<img src="fsjan/tombol/s1.png" class="img-fluid" style="padding-bottom: 5px;">
-	</div>
-	';
+            <div class="col-lg">
+            <img src="fsjan/tombol/s1.png" class="img-fluid" style="padding-bottom: 5px;">
+            </div>
+            ';
+        }
+        else {
+        }
+            //button sesi 02
+        if ($hari <= 220117) {
+            echo '       
+            <div class="col-lg">
+            <img src="fsjan/tombol/s2.png" class="img-fluid" style="padding-bottom: 5px;">
+            </div>
+            ';
         } else {
         }
 
-//         if ($hari <= 211213) {
-//             echo '
-// 	<div class="col-lg-6">
-// 	<img src="fsjan/tombol/s2.png" class="img-fluid">
-// 	</div>
-// 	';
-//         } else {
-//         }
+        //button sesi 03
+        if ($hari <= 220124) {
+            echo '       
+            <div class="col-lg">
+            <img src="fsjan/tombol/s3.png" class="img-fluid" style="padding-bottom: 5px;">
+            </div>
+            ';
+        } else {
+        }
 
-//         if ($hari <= 211220) {
-//             echo '
-// 	<div class="col-lg-6">
-// 	<img src="fsjan/tombol/s3.png" class="img-fluid">
-// 	</div>
-// 	';
-//         } else {
-//         }
+        //button sesi 04
+        if ($hari <= 220131) {
+            echo '       
+            <div class="col-lg">
+            <img src="fsjan/tombol/s4.png" class="img-fluid" style="padding-bottom: 5px;">
+            </div>
+            ';
+        } else {
+        }        
 
-//         if ($hari <= 211227) {
-//             echo '
-//   <div class="col-lg-6">
-// 	<img src="fsjan/tombol/s4.png" class="img-fluid">
-// 	</div>
-// 	';
-//         } else {
-//         }
-
-//         if ($hari <= 220104) {
-//             echo '
-//             <div class="col-lg-6">
-//       <img src="fsdesc/tombol/s5.png" class="img-fluid">
-// 	</div>
-   
-// 	';
-//         } else {
-//         }
         ?>
         </center>
     </div>
@@ -233,11 +229,12 @@
     <!-- kupon sudah berlalu -->
     <div style="clear:both"><br></div>
     <p class='sudahklik'> KUPON YANG SUDAH BERLALU</p>
+    <!-- REVISI!!! Img Src nya di benerin dan di atur supaya rapi -->
     <div class="col-sm-12">
         <center>
         <div class="row">
             <?php
-            if ($hari >= 211208) {
+            if ($hari >= 220111) {
                 echo '
         <div class="col-lg-6">
 	<a href="d1"><img src="fsdesc/tombol/ss1.png" class="img-fluid"></a>
@@ -246,7 +243,7 @@
             } else {
             }
 
-            if ($hari >= 211215) {
+            if ($hari >= 220118) {
                 echo '
         <div class="col-lg-6">
 	<a href="d2"><img src="fsdesc/tombol/ss2.png" class="img-fluid"></a>
@@ -255,7 +252,7 @@
             } else {
             }
 
-            if ($hari >= 211222) {
+            if ($hari >= 220125) {
                 echo '
         <div class="col-lg-6">
 	<a href="d3"><img src="fsdesc/tombol/ss3.png" class="img-fluid"></a>
@@ -264,22 +261,11 @@
             } else {
             }
 
-            if ($hari >= 211229) {
+            if ($hari >= 220201) {
                 echo '
         <div class="col-lg-6">
 	<a href="d4"><img src="fsdesc/tombol/ss4.png" class="img-fluid"></a>
 	</div>
-	';
-            } else {
-            }
-
-            if ($hari >= 220104) {
-                echo '
-            
-        <div class="col-lg-6">
-	<a href="d5"><img src="fsdesc/tombol/ss5.png" class="img-fluid"></a>
-
-    </div>
 	';
             } else {
             }

@@ -8,7 +8,8 @@ if (!$_GET['brand']) {
 } else {
 
     // PRODUK 1
-    if ($_GET['brand']  == "royalseries") {
+    // REVISI!! Kalau sudah ganti flashsale. script flashsale sesi sebelum2 nya di hapus agar tidak banyak query
+    if ($_GET['brand']  == "royalseries") { 
         echo "
         <form action='../kupon_proses.php' method='POST'>
         <div class='col-sm-6'>

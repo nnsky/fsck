@@ -79,104 +79,28 @@ if ($_GET['voucher'] == 'kingkoil160') {
 	$gambar = "promokk/isi/kk200.png";
 	$button = "";
 	$link = "#";
-} elseif ($_GET['voucher'] == 'pakaianck') {    // untuk categori QTY
+	// REVISI!! ubah $gambar, $button, dan $link sesuai lokasi gambar
+} elseif ($_GET['voucher'] == 'olivier') {    // untuk category QTY, hasil nya berdasarkan kodeproduk
 	$gambar = "fsdesc/produk/sesi5/mulai/1.png";
 	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b1.png'> ";
 	$link = "https://www.chandrakarya.com/featured-products/1518-lemari-pakaian-ck-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'briana211') {    // untuk categori QTY
+} elseif ($_GET['voucher'] == 'lemarick') {     // untuk category QTY, hasil nya berdasarkan kodeproduk
 	$gambar = "fsdesc/produk/sesi5/mulai/2.png";
 	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b2.png'> ";
 	$link = "https://www.chandrakarya.com/featured-products/1517-sofa-briana-211-dudukan-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'royalseries160') {	// Untuk categori Springbed
+} elseif ($_GET['voucher'] == 'estima160') {	// Untuk categori Springbed, hasil nya berdasarkan kodeproduk dan sesuaikan dengan ukuran
 	$gambar = "fsdesc/produk/sesi5/mulai/3.png";
 	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b3.png'> ";
 	$link = "https://www.chandrakarya.com/featured-products/1489-dunlopillo-royal-series-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'royalseries180') {	// Untuk categori Springbed
+} elseif ($_GET['voucher'] == 'estima180') {	// Untuk categori Springbed, hasil nya berdasarkan kodeproduk dan sesuaikan dengan ukuran
 	$gambar = "fsdesc/produk/sesi5/mulai/4.png";
 	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b4.png'> ";
 	$link = "https://www.chandrakarya.com/featured-products/1489-dunlopillo-royal-series-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'royalseries200') {	// Untuk categori Springbed
+} elseif ($_GET['voucher'] == 'estima200') {	// Untuk categori Springbed, hasil nya berdasarkan kodeproduk dan sesuaikan dengan ukuran
 	$gambar = "fsdesc/produk/sesi5/mulai/5.png";
 	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b5.png'> ";
 	$link = "https://www.chandrakarya.com/featured-products/1489-dunlopillo-royal-series-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'andes160') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/6.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b6.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1364-springbed-serta-andes-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'andes180') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/7.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b7.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1364-springbed-serta-andes-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'andes200') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/8.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b8.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1364-springbed-serta-andes-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'mejamakan') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/9.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b9.png'> ";
-	$link = "https://www.chandrakarya.com/featured-products/1501-set-meja-makan-fendi-set-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'ladova') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/10.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b10.png'> ";
-	$link = "https://www.chandrakarya.com/featured-products/1142-sofa-ladova-2-dudukan-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'charming160') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/11.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b11.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1410-simmons-charming-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'charming180') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/12.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b12.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1410-simmons-charming-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'charming200') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/13.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b13.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1410-simmons-charming-mattress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'madison160') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/14.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b14.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1350-spring-air-madison-full-set-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'madison180') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/15.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b15.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1350-spring-air-madison-full-set-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'madison200') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/16.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b16.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1350-spring-air-madison-full-set-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'cabinetck') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/17.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b17.png'> ";
-	$link = "https://www.chandrakarya.com/featured-products/1519-cabinet-ck-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'chicago321') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/18.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b18.png'> ";
-	$link = "https://www.chandrakarya.com/featured-products/1070-sofa-chicago-321-dudukan-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'ladysove160') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/19.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b19.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1353-lady-americana-new-sovereign-matress-only-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'ladysove180') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/20.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b20.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1353-lady-americana-new-sovereign-matress-only-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'ladysove200') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/21.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b21.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1353-lady-americana-new-sovereign-matress-only-flash-sale-chandra-karya-.html";
-} elseif ($_GET['voucher'] == 'kingwe160') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/22.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b22.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1367-king-koil-new-world-endorsed-matress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'kingwe180') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/23.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b23.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1367-king-koil-new-world-endorsed-matress-only-flash-sale-chandra-karya.html";
-} elseif ($_GET['voucher'] == 'kingwe200') {	// Untuk categori Springbed
-	$gambar = "fsdesc/produk/sesi5/mulai/24.png";
-	$button = "<img class='img-responsive' src='fsdesc/produk/sesi5/mulai/b24.png'> ";
-	$link = "https://www.chandrakarya.com/flash-sale/1367-king-koil-new-world-endorsed-matress-only-flash-sale-chandra-karya.html";
-}
-
+} 
 
 
 echo "
